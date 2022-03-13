@@ -82,7 +82,7 @@ class Form_controller extends Controller
             ->addColumn('Actions',function($row){
                 $btn = '<a href="'.url("/editForm/".$row->form_id).'" data-toggle="tooltip" data-id="'.$row->form_id.'" title="Edit" class=" btn btn-primary btn-sm ">Edit</a>';
                 $btn = $btn.' <a href="'.url("/viewForm/".$row->form_id).'" data-toggle="tooltip" data-id="'.$row->form_id.'" title="View" class=" btn btn-success btn-sm ">View</a>';
-                $btn = $btn.' <a href="'.url("/deleteForm/".$row->form_id).'" data-toggle="tooltip" data-id="'.$row->form_id.'" title="Delete" class="btn btn-danger btn-sm ">Delete</a>';
+                //$btn = $btn.' <a href="'.url("/deleteForm/".$row->form_id).'" data-toggle="tooltip" data-id="'.$row->form_id.'" title="Delete" class="btn btn-danger btn-sm ">Delete</a>';
                 return $btn;
                 
             })
