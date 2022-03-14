@@ -1,4 +1,4 @@
-composer install
+composer update
 take a copy of .env.example and create .env file
 php artisan migrate
 php artisan db:seed --class=userSeeder
