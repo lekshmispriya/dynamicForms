@@ -14,16 +14,16 @@
         <link rel="stylesheet" href="http://cdn.datatables.net/1.10.18/css/jquery.dataTables.min.css">
 
         <!-- <link rel="stylesheet" href="{{ URL::asset('/css/app.css') }}" type="text/css"> -->
-        <link rel="stylesheet" href="http://localhost/forms/public/css/app.css" type="text/css">
-
+       
+         <link rel="stylesheet" href="{{ url('/public/css/app.css') }}" type="text/css">
         <!-- Scripts -->
         <!-- <script src="{{ URL::asset('js/app.js') }}" defer></script> -->
-        <script src="http://localhost/forms/public/js/app.js" defer></script>
+        <script src="{{ url('/public/js/app.js') }}" defer></script>
  
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src = "http://cdn.datatables.net/1.10.18/js/jquery.dataTables.min.js"></script>
         <!-- <script src="{{ URL::asset('js/custom.js') }}" defer></script> -->
-        <script src="http://localhost/forms/public/js/custom.js" defer></script>
+        <script src="{{ url('/public/js/custom.js') }}" defer></script>
         <script>
     var base_path = "{{ url('/') }}/";
 </script>
