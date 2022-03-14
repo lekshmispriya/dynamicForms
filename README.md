@@ -1,3 +1,4 @@
+composer install
 php artisan migrate
 php artisan db:seed --class=userSeeder
 php artisan db:seed --class=elements_table_seeder
